@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #d2691e;
+    height: 50vh;
+    background-image: url(aesthetic-computer-4k.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#task-input {
+    align-items: center;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(122, 99, 99);
+
+}
+
+::placeholder {
+    color: #000000;
+    justify-content: center;
+    opacity: 10;
+}
+
+#add-button {
+    padding: 8px 20px;
+    background-color: rgb(122, 99, 99);
+    color: #000000;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+}
+
+Li {
+    position: static;
+    padding: 2px;
+    color: hwb(334 50% 14%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    height: 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: text;
+}
